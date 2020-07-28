@@ -42,7 +42,7 @@ class TableCompute(object):
 
     def process(self, products, ppg=20, ppr=4):
         # Compute products positions on the grid
-        minpos = 0
+        minpos = 0   
         index = 0
         maxy = 0
         x = 0
